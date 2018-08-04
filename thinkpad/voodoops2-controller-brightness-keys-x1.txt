@@ -1,0 +1,15 @@
+# Brightness Keys fix for Thinkpad X1
+#
+# Tested on:
+# ThinkPad X1 (20FQ / 1st gen Yoga / Carbon)
+# ...?
+#
+
+into method label _Q15 replace_content
+begin
+	Notify(\_SB.PCI0.LPC.KBD, 0x0405)\n
+end;
+into method label _Q14 replace_content
+begin
+	Notify(\_SB.PCI0.LPC.KBD, 0x0406)\n
+end;

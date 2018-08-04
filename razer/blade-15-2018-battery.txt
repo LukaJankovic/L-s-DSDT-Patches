@@ -1,0 +1,5 @@
+# Fixes Battery status for Razer Blade 15 2018
+# To be used together with the Razer Blade 2014 battery patch on Rehabman's repo
+
+into device label H_EC code_regex BIF0,\s+16, replace_matched begin IF00,8,IF01,8, end;
+into method label _BIF code_regex \(\^\^EC0.BIF0, replaceall_matched begin (B1B2(\^\^EC0.IF00,\^\^EC0.IF01), end;

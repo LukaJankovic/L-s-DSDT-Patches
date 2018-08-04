@@ -1,0 +1,15 @@
+# Enables polling mode for VoodooI2C
+#
+# Tested on:
+# Razer Blade 15 (2018)
+#
+
+into method label _STA parent_label GPI0 replace_content
+begin
+	Return (0x0F)
+end;
+
+into_all method label _CRS parent_label TPD0 replace_content 
+begin
+	ConcatenateResTemplate (SBFB, SBFI)
+end;
