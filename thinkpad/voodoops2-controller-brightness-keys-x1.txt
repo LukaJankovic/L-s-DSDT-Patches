@@ -1,4 +1,4 @@
-# Maintained by: Luka Jankovic
+# Maintained By: Luka Jankovic
 # Last Updated: 26 July 2018
 #
 # Brightness Keys fix for Thinkpad X1
