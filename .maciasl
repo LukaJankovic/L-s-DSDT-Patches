@@ -1,3 +1,3 @@
-[General]  VoodooI2C polling mode					general/voodooi2c-polling-mode.txt
-[Razer]	   Razer Blade 15 (2018) Battery				razer/blade-15-2018-battery.txt
-[ThinkPad] VoodooPS2Controller brigthness keys for X1			thinkpad/voodoops2-controller-brightness-keys-x1.txt
+[General] VoodooI2C polling mode	general/voodooi2c-polling-mode.txt
+[Razer] Razer Blade 15 (2018) Battery	razer/blade-15-2018-battery.txt
+[ThinkPad] VoodooPS2Controller brigthness keys for X1	thinkpad/voodoops2-controller-brightness-keys-x1.txt

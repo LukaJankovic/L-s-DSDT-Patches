@@ -1,3 +1,6 @@
+# Maintained by: Luka Jankovic
+# Last updated: 5 August 2018
+#
 # Enables polling mode for VoodooI2C
 #
 # Tested on:

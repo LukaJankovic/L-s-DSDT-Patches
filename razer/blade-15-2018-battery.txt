@@ -1,3 +1,6 @@
+# Maintained By: Luka Jankovic
+# Last Updated: 6 August 2018
+#
 # Fixes Battery status for Razer Blade 15 2018
 # To be used together with the Razer Blade 2014 battery patch on Rehabman's repo
 
